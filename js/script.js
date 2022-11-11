@@ -18,6 +18,16 @@ $(function(){
     },'500');
   
   });
+  
+  
+  $('.story-btn').click(function(){
+    // animateメソッドを用いて、
+    // アニメーション付きでスクロールするようにしてください。
+    $('html, body').animate({
+      'scrollTop':$('#story').offset().top
+    },'500');
+  
+  });
   $('.chara-btn').click(function(){
     // animateメソッドを用いて、
     // アニメーション付きでスクロールするようにしてください。
